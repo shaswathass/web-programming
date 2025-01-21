@@ -1,0 +1,69 @@
+body {
+font-family: "Times New Roman", serif;
+background-color: #9A7B4F; 
+color: #4A2511; 
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+color: #2e1503;
+text-align: center;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+fieldset {
+border: 1px solid #4A2511;
+border-radius: 8px;
+padding: 10px 15px;
+margin-bottom: 20px;
+}
+
+legend {
+font-weight: bold;
+color: #4A2511;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+input, select, textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #4A2511;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+input[type="checkbox"], input[type="radio"] {
+width: auto;
+margin-right: 5px;
+}
+
+textarea {
+resize: vertical;
+}
+
+input[type="submit"] {
+background-color: #4A2511;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #2e1503;
+}

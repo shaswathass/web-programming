@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Feedback Form</title>
+<link rel="stylesheet" href="forms21.css"> 
+</head>
+<body>
+<h1>COURSE FEEDBACK FORM</h1>
+<form>
+<fieldset>
+<legend>Text Input</legend>
+<label for="textbox">Enter your name:</label>
+<input type="text" id="textbox" name="textbox" placeholder="Type your name here" required>
+<br><br>
+<label for="reg-number">Enter your registration number:</label>
+<input type="text" id="reg-number" name="reg-number" placeholder="Type your registration number here" required maxlength = "9">
+</fieldset>
+<br>
+<fieldset>
+<legend>Radio Buttons</legend>
+<label>Choose your slot:</label>
+<input type="radio" id="Morning" name="slot" value="Morning">
+<label for="Morning">Morning</label>
+<input type="radio" id="Afternoon" name="slot" value="Afternoon">
+<label for="Afternoon">Afternoon</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Check Boxes</legend>
+<label>Select all the blocks where you have classes:</label><br>
+<input type="checkbox" id="SJT" name="block" value="SJT">
+<label for="SJT">SJT</label>
+<input type="checkbox" id="PRP" name="block" value="PRP">
+<label for="PRP">PRP</label>
+<input type="checkbox" id="TECHNOLOGY TOWER" name="block" value="TECHNOLOGY TOWER">
+<label for="TECHNOLOGY TOWER">TECHNOLOGY TOWER</label>
+<input type="checkbox" id="SMV" name="block" value="SMV">
+<label for="SMV">SMV</label>
+<input type="checkbox" id="CDMM" name="block" value="CDMM">
+<label for="CDMM">CDMM</label>
+<input type="checkbox" id="GD NAIDU" name="block" value="GD NAIDU">
+<label for="GD NAIDU">GD NAIDU</label>
+<input type="checkbox" id="MGR" name="block" value="MGR">
+<label for="MGR">MGR</label>
+<input type="checkbox" id="MGB" name="block" value="MGB">
+<label for="MGB">MGB</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Selection Box</legend>
+<label for="scrolled-select">Select year:</label>
+<select id="scrolled-select" name="degree" size="3" multiple>
+<option value="FIRST">FIRST</option>
+<option value="SECOND">SECOND</option>
+<option value="THIRD">THIRD</option>
+<option value="FINAL">FINAL</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Option Box</legend>
+<label for="option-box">Choose your school:</label>
+<select id="option-box" name="school">
+<option value="SELECT">SELECT</option>
+<option value="SCOPE">SCOPE</option>
+<option value="SCHEME">SCHEME</option>
+<option value="SENSE">SENSE</option>
+<option value="SBST">SBST</option>
+<option value="SAS">SAS</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Labels and Datalist</legend>
+<label for="subject">Enter your subject name:</label>
+<input list="subjects" id="subject" name="subject" placeholder="Type or choose">
+<datalist id="subjects">
+<option value="Web programming">
+<option value="Design and analysis of algorithms">
+<option value="Probability and statistics">
+<option value="Theory of computation">
+<option value="Computer architecture and organisations">
+<option value="Soft skills">
+<option value="Microprocessors and Microcontrollers">
+</datalist>
+</fieldset>
+<br>
+<fields>
+<legend>TextArea Box</legend>
+<label for="textarea">Type your feedback on the course:</label>
+<textarea id="textarea" name="feedback" rows="4" placeholder="Type here"></textarea>
+</fieldset>
+<button type="submit"> submit </button>
+</form>
+</body>
+</html>

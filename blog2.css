@@ -1,0 +1,113 @@
+body {
+font-family: Arial, sans-serif;
+background-color: lavender;
+margin: 0;
+padding: 0;
+color: indigo;
+}
+
+header {
+text-align: center;
+background-color: indigo;
+color: white;
+padding: 20px 0;
+}
+
+header h1 {
+margin: 0;
+font-size: 2.5em;
+}
+
+header h4 {
+margin: 5px 0;
+font-size: 1.2em;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+background-color: white;
+}
+
+nav a {
+text-decoration: none;
+color: indigo;
+font-size: 1.2em;
+margin: 0 5px;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: #4B0082;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 30px;
+}
+
+section h2 {
+font-size: 1.8em;
+margin-bottom: 10px;
+}
+
+section img {
+max-width: 100%;
+height: auto;
+border: 2px solid indigo;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+section p {
+line-height: 1.5;
+}
+
+iframe {
+width: 100%;
+max-width: 560px;
+height: 315px;
+margin: 10px 0;
+border: none;
+}
+
+footer {
+background-color: indigo;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+footer form {
+margin: 20px auto;
+max-width: 400px;
+}
+
+footer label {
+font-size: 1.2em;
+}
+
+footer input, footer textarea, footer button {
+width: 100%;
+margin: 10px 0;
+padding: 10px;
+border: 2px solid white;
+border-radius: 5px;
+font-size: 1em;
+}
+
+footer button {
+background-color: white;
+color: indigo;
+font-weight: bold;
+cursor: pointer;
+}
+
+footer button:hover {
+background-color: #4B0082;
+color: white;
+}
